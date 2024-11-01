@@ -1,0 +1,107 @@
+/**
+ * This is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * See http://www.gnu.org/licenses/gpl-2.0.txt.
+ *
+ * © 2018, John Alarcon
+ * https://twitter.com/realJohnAlarcon
+ * https://www.linkedin.com/in/alarconjohn
+ * 
+ */
+
+/* 	------------------------------
+	Base styles
+	------------------------------ */
+.alar-site-info-heading {
+	padding: 10px !important;
+	background:#e9e9e9;
+	color: #333;
+	}
+.alar-site-info-subheading {
+	border-bottom: 1px solid #ccc;
+	margin-left: 25px;
+	}
+.alar-site-info-list-heading {
+	font-size:125%;
+	color:#aaa;
+	}
+.alar-site-info-indent-one {
+	margin-left:25px;
+	}
+.alar-site-info-indent-two {
+	margin-left:50px;
+	}
+.alar-site-info-indent-three {
+	margin-left:75px;
+	}
+.alar-site-info-indent-four {
+	margin-left:100px;
+	}
+.alar-site-info-author {
+	color:#aaa;
+	}
+.alar-site-info-full-php-info {
+	display: none;
+	}
+.dashicons-before.dashicons-yes {
+	color: #27ae60;
+	}
+.dashicons-before.dashicons-warning {
+	color: #f1c40f;
+	}
+.dashicons-before.dashicons-flag {
+	color: #c0392b;
+	}
+/* 	------------------------------
+	Tooltips
+	------------------------------ */
+.ui-tooltip, 
+.arrow:after {
+	border:1px solid #555;
+	background:#fff;
+	}
+.ui-tooltip {
+	padding:20px;
+	border-radius:10px;
+	box-shadow:0 0 5px #000;
+	}
+.arrow {
+	width:70px;
+	height:16px;
+	overflow:hidden;
+	position:absolute;
+	left:50%;
+	margin-left:-30px;
+	bottom:-16px;
+	}
+.arrow.top {
+	top:-16px;
+	bottom:auto;
+	}
+.arrow.left {
+	left:20%;
+	}
+.arrow:after {
+	content:"";
+	position:absolute;
+	left:20px;
+	top:-20px;
+	width:25px;
+	height:25px;
+	box-shadow:6px 5px 9px -9px black;
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	transform:rotate(45deg);
+	}
+.arrow.top:after {
+	bottom:-20px;
+	top:auto;
+	}
